@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "fonts.css";
+header.header {
+    width: 100%;
+    height: 50px;
+    border: solid 2px #000; 
+}
+
+h1.highlight {
+    color: rgb(2, 21, 133);
+}
+.destaque > h1.highlight {
+    color: black;
+}

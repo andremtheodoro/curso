@@ -1,0 +1,16 @@
+h1.highlight {
+    color: rgb(24, 128, 85) !important;
+    font-weight: normal;
+}
+
+section {
+    border: dashed 1px #333;
+    font-family: sans-serif;
+    
+}
+
+div.destaque {
+    width: 50%;
+    border: inherit;
+    margin: 5% auto;
+}

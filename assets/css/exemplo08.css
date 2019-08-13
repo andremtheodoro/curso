@@ -1,0 +1,20 @@
+@import "base.css";
+
+table{
+    width: 100%;
+}
+
+th, td {
+    border: solid 0.5px #ccc;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+tbody > tr:nth-child(odd){
+    background: #ccc;
+}
+
+tbody > tr:hover {
+    background:rgb(255, 248, 183);
+    cursor: pointer;
+}

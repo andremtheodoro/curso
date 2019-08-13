@@ -1,0 +1,46 @@
+.container{
+    width: 60vw;
+    height: 80vh;
+    margin: 2% auto;
+    border: solid 0.5px rgb(0, 56, 211);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; /* ROW:X | COLUMN Y*/
+    align-items: center; /* ROW:Y | COLUMN: X */
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    border: dashed 0.5px rgb(95, 95, 95);
+    color: rgb(0, 56, 211);
+    font-family: 'Roboto';
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 1s;
+    filter: sepia(80%);
+}
+
+.item:hover {
+    transition: 1s;
+    padding-bottom: 10%;
+    filter: sepia(0%);
+}
+
+.item:first-child {
+    color: red;
+    
+}
+
+.item:nth-child(3){
+    color: green;
+  
+}
+
+.item:last-child {
+    color: orange;
+    
+}

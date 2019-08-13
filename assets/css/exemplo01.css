@@ -1,0 +1,66 @@
+.bloco {
+    width: 50vw;
+    height: 30vh;
+    border: solid 0.5px #333;
+    background: #fff;
+    box-shadow: #ccc 5px 5px 10px;
+    margin: 20% auto;
+}
+
+.bloco > p {
+    color: #333;
+    font-family: 'OpenSansCondensed-Light';
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+span.Linha {
+    width: 500px;
+    height: 30;
+    color: red;
+    font-family: 'Roboto-Light';
+   
+}
+
+
+i.fa-bars,
+i.fa-linkedin,
+i.fa-facebook-square,
+i.fa-instagram {
+    color: rgb(82, 82, 82);
+    font-size: 2em;
+    margin: 0 1vw;
+    transition:0.5s;
+}
+.container-icon > i[ class^="fab"] {
+    margin-right: 3%;
+
+}
+
+.container-icon > i[class^="fab"]:hover {
+    color: rgb(202,202,202);
+    cursor:pointer;
+    transform: scale(1.5)rotate(360deg);
+}
+.container-icon {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: rgb(46, 46, 46);
+    position: absolute;
+    bottom: 0;
+
+}
+
+@media only screen and (max-width: 480px){
+    i.fa-bars,
+    i.fa-linkedin,
+    i.fa-facebook-square,
+    i.fa-instagram {
+    color: rgb(82, 82, 82);
+    font-size: 2em;
+    margin: 0 3vw;    
+    }
+}

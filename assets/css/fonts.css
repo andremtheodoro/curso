@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "OpenSansCondensed-Light";
+    src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+    font-size: 0.8em;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Regular.ttf");
+    font-size: 0.8em;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+    font-size: 0.10em;
+}
